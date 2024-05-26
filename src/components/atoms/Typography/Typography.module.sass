@@ -1,0 +1,123 @@
+@import @/theme
+
+.typography
+  color: $text-color
+  transition: color 0.3s ease-in
+
+  &.pointer
+    cursor: pointer
+
+  &.underline
+    text-decoration: underline
+
+  &--weight-extra-bold
+    font-weight: 800
+
+  &--weight-bold
+    font-weight: bold
+  //700
+
+  &--weight-medium
+    font-weight: 500
+
+  &--weight-light
+    font-weight: 300
+
+  &--weight-semibold
+    font-weight: 600
+
+  &--weight-normal
+    font-weight: normal
+  //400
+
+  &-error
+    color: $primary-color
+
+  &-inherited
+    color: inherit
+
+  &--align-left
+    text-align: left
+
+  &--align-center
+    text-align: center
+
+  &--align-right
+    text-align: right
+
+  // Text color variations
+  &--text-color-primary
+    color: $primary-color
+
+  &--text-color-secondary
+    color: $secondary-color
+
+  &--text-color-separator
+    color: $separator-color
+
+  &--text-color-dark
+    color: $dark-color
+
+  &--text-color-grey-dark
+    color: $grey-dark
+
+  &--text-color-pastel
+    color: $pastel-color
+
+  &--text-color-grey
+    color: $grey
+
+  &--text-color-darkGrey
+    color: $grey-dark
+
+  &--text-color-light
+    color: $light-color
+
+  &--text-color-white
+    color: $white
+
+  &--text-color-pink
+    color: $pink
+
+  &--text-color-blue
+    color: $blue
+
+  &--text-color-text
+    color: $background-global
+
+  // Variants styling
+
+
+  &--variant-h1
+  // 24px
+     font-size: 1.5rem
+     letter-spacing: 0.1em
+
+  &--variant-h2
+  // 22px
+     font-size: 1.375rem
+     letter-spacing: 0.1em
+
+  &--variant-h3
+  // 16px
+     font-size: 1rem
+     letter-spacing: 0.1em
+
+  &--variant-bodyXL
+    //18px
+    font-size: 1.125rem
+    line-height: spacing(4.5)
+
+  &--variant-bodyL
+  // 14px
+     font-size: 0.875rem
+     letter-spacing: 0.04em
+
+  &--variant-bodyM
+    font-size: 0.75rem
+    letter-spacing: 0.04em
+
+  &--variant-bodyS
+// 10px
+   font-size: 0.625rem
+   letter-spacing: 0.04em

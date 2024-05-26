@@ -1,0 +1,13 @@
+@import @/theme
+.container
+  padding: 0 spacing(6)
+  display: grid
+  gap: spacing(4.5)
+  grid-template-columns: repeat(3, 393px)
+  @include media("<md-lg")
+    grid-template-columns: repeat(3, 253px)
+  @include media("<sm")
+    grid-template-columns: repeat(3, 177px)
+
+
+

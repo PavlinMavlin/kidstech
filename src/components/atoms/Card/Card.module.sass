@@ -1,0 +1,24 @@
+@import @/theme
+.container
+  display: flex
+  flex-direction: column
+  cursor: pointer
+
+.titleBlock
+  background: $white
+  border-bottom-left-radius: spacing(4.5)
+  border-bottom-right-radius: spacing(4.5)
+  box-shadow: 0px 10px 13px -4px #23235F30
+  padding: spacing(3) spacing(4.5) spacing(4.5) spacing(4.5)
+  @include media("<sm")
+    min-height: spacing(16.5)
+
+.imageBlock
+  width: 100%
+  display: flex
+  justify-content: center
+  border-top-left-radius: spacing(4.5)
+  border-top-right-radius: spacing(4.5)
+
+  & > img
+    height: spacing(40.5)
